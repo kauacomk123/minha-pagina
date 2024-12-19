@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #9c5f94;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a.button {
+    padding: 8px 10px; /* Diminuir o tamanho do botão */
+    background-color: #f9b9d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px; /* Borda mais suave */
+    border: 1px solid #f8e4f1; /* Borda fina */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+a.button:hover {
+    background-color: #d09dce;
+    transform: scale(1.1);
+}
+
+/* Seções */
+section {
+    padding: 40px; /* Reduzir o padding */
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 6px; /* Bordas mais suaves */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Borda mais fina nas seções */
+}
+
+section h2 {
+    color: #9c5f94;
+    font-size: 2rem;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #9c5f94;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Input de texto */
+input {
+    background-color: #fcd6e5; /* Rosa suave para o campo de entrada */
+    padding: 8px; /* Diminuir o padding */
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 3px; /* Borda mais suave */
+    border: 1px solid #f8e4f1; /* Borda fina */
+    width: 80%;
+    outline: none;
+}
+
+input:focus {
+    border-color: #9c5f94; /* Cor rosa mais intenso no foco */
+}
+#imagen1 {
+    background-image: url('kaua.jpg'); /* Caminho da sua imagem */
+    background-size: cover; /* Para a imagem cobrir o elemento */
+    background-position: right; /* Imagem à direita e centralizada verticalmente */
+
+}
